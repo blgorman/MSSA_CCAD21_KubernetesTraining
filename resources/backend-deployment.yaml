@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: backend
-          image: simple-kube-demo-backend:latest
+          image: acrsimplekubedemo20260305blg.azurecr.io/simple-kube-demo-backend:v1.0.0
           imagePullPolicy: IfNotPresent
           ports:
             - containerPort: 8080
